@@ -1,16 +1,17 @@
-# adv_flutter_ch9
+# Call Pixabay API & Represent in UI.
 
-A new Flutter project.
+## Description
+This Flutter application demonstrates how to perform API calls and implement a search functionality. It fetches data from an external API and allows users to search through the retrieved data.
 
-## Getting Started
+### Features
+- `API Integration:-` Fetches data from a REST API.
+- `Search Functionality:-` Allows users to search through the fetched data.
+- `State Management:-` Uses Provider for state management.
 
-This project is a starting point for a Flutter application.
+<div align="center">
+<img src="https://github.com/user-attachments/assets/30f767be-6e98-453d-bab9-bd076d2c5c74" height=65% width="22%">
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/user-attachments/assets/bc51f097-4944-418e-bdc1-66b9001abcf8" height=65% width="22%">
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
