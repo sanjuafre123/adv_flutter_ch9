@@ -14,4 +14,18 @@ This Flutter application demonstrates how to perform API calls and implement a s
 <img src="https://github.com/user-attachments/assets/bc51f097-4944-418e-bdc1-66b9001abcf8" height=65% width="22%">
 </div>
 
+# Call Pixabay API & Represent in UI.
+
+## Description :
+```This project leverages the Pixabay API to fetch high-quality images based on user search queries. It dynamically integrates the API response into a visually appealing user interface. Users can enter a search term, and the application retrieves relevant images, displaying them in a structured grid layout. Each image includes tags for easy identification and context. The UI features responsive design and interactive elements for an enhanced user experience. Error handling mechanisms ensure smooth operation even when API calls fail.```
+
+<h2 align="center">1. Recipes App </h2>
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/e4dffba7-e52a-4786-b9ca-b75bfd9a8512" height=65% width="22%">
+
+<img src="https://github.com/user-attachments/assets/b4050af0-328e-455c-b327-3ed5f0a707d7" height=65% width="22%">
+
+https://github.com/user-attachments/assets/33ce3dc8-3b37-4702-b8ba-996ab785f9ec
+</div>
 
