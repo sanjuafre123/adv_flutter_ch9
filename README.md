@@ -1,4 +1,4 @@
-![bt2-portrait](https://github.com/user-attachments/assets/a3851eab-e280-49d3-803f-bb51a97eeb86)![bt2-portrait](https://github.com/user-attachments/assets/cd15d68e-dc52-4c4b-ba41-17b45e00f6ca)# Call Pixabay API & Represent in UI.
+Call Pixabay API & Represent in UI.
 
 ## Description
 This Flutter application demonstrates how to perform API calls and implement a search functionality. It fetches data from an external API and allows users to search through the retrieved data.
