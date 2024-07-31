@@ -33,12 +33,10 @@ https://github.com/user-attachments/assets/33ce3dc8-3b37-4702-b8ba-996ab785f9ec
 </div>
 
 
-
-
 <h2 align="center"> Ecommerce App </h2>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/c1ab8115-7604-4818-a4c9-20f001fb585f" height=65% width="22%">
+<img src="https://github.com/user-attachments/assets/115d2dca-2c21-41fd-acd3-d6d77619f703" height=65% width="22%">
 
 <img src="https://github.com/user-attachments/assets/94555846-9441-4fd6-817f-8c5ba3403f01" height=65% width="22%">
 
