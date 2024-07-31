@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/33ce3dc8-3b37-4702-b8ba-996ab785f9ec
 
 
 
-<h2 align="center"> Eccomers </h2>
+<h2 align="center"> Ecommerce App </h2>
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/c1ab8115-7604-4818-a4c9-20f001fb585f" height=65% width="22%">
