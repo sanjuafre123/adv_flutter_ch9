@@ -89,6 +89,7 @@ class BeautyProvider extends ChangeNotifier
       cart.add({'title': productToAdd.title, 'price': productToAdd.price, 'quantity': quantity,'images': productToAdd.images,'discountPercentage' : productToAdd.discountPercentage});
     }
     calPrice();
+    notifyListeners();
   }
 
   void TotalPrice() {
@@ -111,6 +112,5 @@ class BeautyProvider extends ChangeNotifier
       beautyModal = BeautyModal.fromJson(json);
       notifyListeners();
     }
-    notifyListeners();
   }
 }

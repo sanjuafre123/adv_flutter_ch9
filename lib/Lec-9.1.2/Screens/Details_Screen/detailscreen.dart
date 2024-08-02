@@ -238,7 +238,7 @@ class DetailScreen extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   beautyProviderTrue.cartAdd();
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> const CartScreen()));
+                  Navigator.of(context).pushNamed('/cart');
                 },
                 child: Container(
                   height: height * 0.068,

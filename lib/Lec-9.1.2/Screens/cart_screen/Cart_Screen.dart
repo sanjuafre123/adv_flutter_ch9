@@ -9,49 +9,52 @@ class CartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    BeautyProvider beautyProviderFalse = Provider.of<BeautyProvider>(context,listen: false);
-    BeautyProvider beautyProviderTrue = Provider.of<BeautyProvider>(context,listen : true);
+    BeautyProvider beautyProviderFalse =
+        Provider.of<BeautyProvider>(context, listen: false);
+    BeautyProvider beautyProviderTrue =
+        Provider.of<BeautyProvider>(context, listen: true);
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('Cart'),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          children: [
-            ...List.generate(cartList.length, (index) => Container(
-              height: 200,
-              width: 400,
-              decoration: BoxDecoration(
-                  color: Colors.white
-              ),
-              child: Row(
-                children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: NetworkImage(beautyProviderTrue.cart[selectedIndex]['images'][0]),
-                        )
-                    ),
-                  ),
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text('Cart'),
+        ),
+        body: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: [
+                ...List.generate(
+                  beautyProviderTrue.cart.length,
+                  (index) => Row(
                     children: [
-                      beautyProviderTrue.cart[index]['title'],
-                      beautyProviderTrue.cart[index]['price'],
+                      Container(
+                        height: 100,
+                        width: 100,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                          image: NetworkImage(beautyProviderTrue
+                              .cart[index]['images'][0]),
+                        ),
+
+                        ),
+                      ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(beautyProviderTrue.beautyModal!.product[selectedIndex].title,style: TextStyle(fontSize: 18),),
+                          Row(
+                            children: [
+                              Text('Rs. ${beautyProviderTrue.price}'.toString()),
+                            ],
+                          ),
+                        ],
+                      ),
+
 
                     ],
-                  )
-                ],
-              ),
-            ),)
-          ],
-        )
-      )
-    );
+                  ),
+                )
+              ],
+            )));
   }
 }
 
