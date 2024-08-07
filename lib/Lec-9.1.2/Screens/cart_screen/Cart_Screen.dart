@@ -65,6 +65,35 @@ class CartScreen extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+            Spacer(),
+            Container(
+              height: 100,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.black26,
+              ),
+              child: Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 10),
+                    child: Text(
+                      'Total Amount :',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.w400,
+                          fontSize: 23),
+                    ),
+                  ),
+                  Text(
+                    ' ${beautyProviderTrue.price} /-',
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.w600,
+                        fontSize: 22),
+                  ),
+                ],
+              ),
             )
           ],
         ),
